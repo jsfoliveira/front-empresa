@@ -87,7 +87,8 @@
     margin-left: 15px;
   }
 
-  .navbar__links a:hover {
+  .navbar__links a:hover,
+  .navbar__links a.active {
     color: green;
   }
 

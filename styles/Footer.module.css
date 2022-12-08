@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__text {
+  font-weight: 700;
+  color: green;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+
+@media screen and (max-width: 500px) {
+  .footer {
+    border-color: #222;
+    font-size: 10px;
+  }
+
+}
