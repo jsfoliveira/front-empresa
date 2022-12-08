@@ -18,8 +18,8 @@
 }
 
 .logo {
-  width: 15em;
-  height: 12em;
+  width: 18vw;
+  height: 15vw;
   margin-left: 2.5rem;
 }
 
@@ -43,9 +43,52 @@
 }
 
 .navbar__links a.active {
-  color: var(--color-primary);
+  color: green;
 }
 
 .navbar__links a:hover {
-  color: var(--color-primary);
+  color: green;
+}
+
+
+@media screen and (max-width: 500px) {
+  .logo {
+    width: 35vw;
+    height: 28vw;
+    padding-left: 10px;
+    margin-left: 0;
+  }
+
+  .navbar__container{
+    padding-left: 0;
+    margin-left: 0;
+    height: 100px;
+  }
+
+  .navbar__links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50px;
+    text-align: center;
+  }
+
+  .navbar__links a {
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .navbar__links li {
+    display: inline-block;
+    font-size: 0.875rem;
+    margin-right: 3rem;
+    text-transform: uppercase;
+    margin-left: 15px;
+  }
+
+  .navbar__links a:hover {
+    color: green;
+  }
+
 }
