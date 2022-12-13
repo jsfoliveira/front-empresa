@@ -10,13 +10,40 @@
   background-size: cover;
 }
 
-.card {                    
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 350px;
-  width: 50rem;
-  height: 45rem;
-  border-radius: 10px;
-  backdrop-filter: blur(14px);
-  background-color: rgba(255, 255, 255, 0.2);
+.card {    
+  display: block;
+  text-align: center;
+  margin-top: 500px;
 }
+
+.card h3 {
+  font-size: 3rem;
+  color: cornsilk;
+}
+
+.card h4 {
+  font-size: 1.5rem;
+  color: cornsilk;
+  font-weight: 300;
+}
+
+.card span {
+  color: rgba(255, 248, 220, 0.516);
+  font-weight: 800;
+}
+
+
+@media screen and (max-width: 500px) {
+  .card {    
+    margin-top: 300px;
+  }
+
+  .card h3 {
+  font-size: 1.5rem
+  }
+
+  .card h4 {
+    font-size: 1rem;
+  }
+  
+  }

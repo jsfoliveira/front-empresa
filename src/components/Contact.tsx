@@ -3,18 +3,13 @@ import styles from '../../styles/Contact.module.css'
 const Contact = () => {
   return (
     <main className={styles.contact}>
-      {/* <div className={styles.card}>
-        <form className={styles.contact__form__container} action="">
-          <h3>Deixe sua mensagem</h3>
-          <label htmlFor="name">Seu nome</label>
-            <input id="name" type="text"/>
-          <label htmlFor="email">Seu email</label>
-            <input id="email" type="text"/>
-          <label htmlFor="message">Sua mensagem</label>
-            <input id="message" type="text"/>
-          <button className={styles.btn} type="submit">Enviar</button>
-        </form>
-      </div> */}
+      <div className={styles.card}>
+        <h3>Entre em contato conosco!</h3>
+        <h4><span>Telefone:  </span> (071) 99350-0101</h4>
+        <h4><span>WhatsApp:  </span> (071) 99350-0101</h4>
+        <h4><span>E-mail:  </span> pbpeixoto@gmail.com</h4>
+        <h4><span>Local:  </span> Salvador - Bahia - Brasil</h4>
+      </div>
     </main>
   )
 }
