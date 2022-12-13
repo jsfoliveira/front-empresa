@@ -1,0 +1,22 @@
+.service {
+  background-image: url('../pages/public/assets/tech.jpeg');
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card {                    
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 350px;
+  width: 50rem;
+  height: 45rem;
+  border-radius: 10px;
+  backdrop-filter: blur(14px);
+  background-color: rgba(255, 255, 255, 0.2);
+}

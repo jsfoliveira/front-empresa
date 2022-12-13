@@ -7,3 +7,15 @@
   justify-content: center;
   align-items: center;
 }
+
+.home {
+  background-image: url('../pages/public/assets/home.jpeg');
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
