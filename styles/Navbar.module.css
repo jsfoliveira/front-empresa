@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .navbar {
   position: fixed;
   z-index: 1;
@@ -15,6 +17,7 @@
   height: 10vw;
   padding: 0 1rem;
   background-color: hsl(0, 4%, 13%);
+  border-bottom: 4px solid white;
 }
 
 .logo {
@@ -36,16 +39,60 @@
 }
 
 .navbar__links a {
-  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
   font-size: 2rem;
   color: #fff;
   text-decoration: none;
 }
 
 .navbar__links a.active {
-  color: var(--color-primary);
+  color: green;
 }
 
 .navbar__links a:hover {
-  color: var(--color-primary);
+  color: green;
+}
+
+@media screen and (max-width: 500px) {
+  .logo {
+    width: 35vw;
+    height: 28vw;
+    padding-left: 10px;
+    margin-left: 0;
+  }
+
+  .navbar__container{
+    padding-left: 0;
+    margin-left: 0;
+    height: 100px;
+  }
+
+  .navbar__links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .navbar__links a {
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .navbar__links li {
+    display: inline-block;
+    font-size: 0.875rem;
+    margin-right: 0;
+    text-transform: uppercase;
+    margin-left: 20px;
+  }
+
+  .navbar__links a:hover,
+  .navbar__links a.active {
+    color: green;
+  }
+
 }
