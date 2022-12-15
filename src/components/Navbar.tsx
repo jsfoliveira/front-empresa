@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className={navbar.navbar}>
       <div className={navbar.navbar__container}>
         <h1 className={navbar.logo}>
-          <a href="">
+          <a href="/">
             <img src={logo.src} alt= 'logo' className={navbar.logo} width="300px" />
           </a>
 
@@ -17,7 +17,6 @@ const Navbar = () => {
               Empresa
               </a>
             </li>
-
             <li>
               <a href="servicos">
               Serviços

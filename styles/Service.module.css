@@ -10,13 +10,122 @@
   background-size: cover;
 }
 
-.card {                    
+.card_green,
+.card_blue,
+.card_yellow,
+.card_red {                   
   margin-right: auto;
   margin-left: auto;
-  margin-top: 350px;
-  width: 50rem;
-  height: 45rem;
+  margin-top: 400px;
+  width: 60rem;
+  height: 35rem;
   border-radius: 10px;
   backdrop-filter: blur(14px);
-  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.card_green h2,
+.card_blue h2,
+.card_yellow h2,
+.card_red h2 {
+  text-align: center;
+}
+ 
+.card_green p,
+.card_blue p,
+.card_yellow p,
+.card_red p {
+  color: #a3a5ae;
+  font-size: 22px;
+  text-align: justify;
+}
+ 
+.card_green img,
+.card_red img {
+  float: right;
+  max-width: 21rem;
+  height: 14rem;
+}
+
+.card_blue img,
+.card_yellow img {
+  float: right;
+  max-width: 30rem;
+  max-height: 14rem;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 400px;
+}
+
+.card_green {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 20px;
+  width: 400px;
+  transition: all 0.3s ease-out;
+  border-left: 3px solid #3bb54a;
+}
+
+.card_red {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 20px;
+  width: 400px;
+  transition: all 0.3s ease-out;
+  border-left: 3px solid #b3404a;
+}
+
+.card_blue {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 20px;
+  width: 400px;
+  transition: all 0.3s ease-out;
+  border-left: 3px solid #4895ff;
+}
+
+.card_yellow {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 20px;
+  width: 400px;
+  transition: all 0.3s ease-out;
+  border-left: 3px solid #fff948;
+}
+
+@media screen and (max-width: 500px) {
+.card_green,
+.card_blue,
+.card_yellow,
+.card_red {
+  width: 23rem;
+}
+
+.row {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+}
+
+.card_green p,
+.card_blue p,
+.card_yellow p,
+.card_red p {
+  color: #a3a5ae;
+  font-size: 16px;
+  text-align: justify;
+}
 }

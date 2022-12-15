@@ -17,7 +17,7 @@ width: 100vw;
 height: 10vw;
 padding: 0 1rem;
 background-color: hsl(0, 4%, 13%);
-border-bottom: 4px solid rgb(135, 185, 160);
+border-bottom: 6px solid rgb(135, 185, 160);
 }
 
 .logo {

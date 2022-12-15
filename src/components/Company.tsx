@@ -3,18 +3,10 @@ import styles from '../../styles/Company.module.css'
 const Company = () => {
   return (
     <main className={styles.company}>
-      {/* <div className={styles.card}>
-        <form className={styles.contact__form__container} action="">
-          <h3>Deixe sua mensagem</h3>
-          <label htmlFor="name">Seu nome</label>
-            <input id="name" type="text"/>
-          <label htmlFor="email">Seu email</label>
-            <input id="email" type="text"/>
-          <label htmlFor="message">Sua mensagem</label>
-            <input id="message" type="text"/>
-          <button className={styles.btn} type="submit">Enviar</button>
-        </form>
-      </div> */}
+      <div className={styles.card}>
+       <h3>Quem somos</h3>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ratione necessitatibus minus aliquam eius iste voluptatibus aut facilis iusto quod odio recusandae cupiditate nobis fugiat ab, libero omnis corporis laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ratione necessitatibus minus aliquam eius iste voluptatibus aut facilis iusto quod odio recusandae cupiditate nobis fugiat ab, libero omnis corporis laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ratione necessitatibus minus aliquam eius iste voluptatibus aut facilis iusto quod odio recusandae cupiditate nobis fugiat ab, libero omnis corporis laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ratione necessitatibus minus aliquam eius iste voluptatibus aut facilis iusto quod odio recusandae cupiditate nobis fugiat ab, libero omnis corporis laborum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ratione necessitatibus minus aliquam eius iste voluptatibus aut facilis iusto quod odio recusandae cupiditate nobis fugiat ab, libero omnis corporis laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ratione necessitatibus minus aliquam eius iste voluptatibus aut facilis iusto quod odio recusandae cupiditate nobis fugiat ab,. </p>
+      </div>
     </main>
   )
 }

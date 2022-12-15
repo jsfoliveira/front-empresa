@@ -20,3 +20,19 @@
   backdrop-filter: blur(14px);
   background-color: rgba(255, 255, 255, 0.2);
 }
+
+.card h3 {
+  color: black;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.card p {
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 2.5rem;
+}

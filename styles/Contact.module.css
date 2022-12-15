@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .contact {
   background-image: url('../pages/public/assets/contact.jpeg');
   bottom: 0;
@@ -17,17 +19,20 @@
 }
 
 .card h3 {
+  font-family: 'Roboto', sans-serif;
   font-size: 3rem;
   color: cornsilk;
 }
 
 .card h4 {
+  font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
   color: cornsilk;
   font-weight: 300;
 }
 
 .card span {
+  font-family: 'Roboto', sans-serif;
   color: rgba(255, 248, 220, 0.516);
   font-weight: 800;
 }
